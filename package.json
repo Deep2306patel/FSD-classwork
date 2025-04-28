@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "type": "module",
+    "chalk": "^5.4.1",
+    "url": "^0.11.4",
+    "validator": "^13.15.0"
+  }
+}
