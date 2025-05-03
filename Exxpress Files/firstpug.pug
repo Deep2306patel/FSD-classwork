@@ -1,0 +1,39 @@
+//- doctype html
+//- html
+//-   head
+//-     title My First Pug Page
+//-     link(rel="stylesheet", href="style.css")
+//-   body
+//-     header
+//-       h1 Welcome to My Website
+    
+//-     main
+//-       section#home
+//-         h2 Home
+//-         p This is the home section.
+//-       section#about
+//-         h2 About
+//-         p This is the about section.
+//-       section#contact
+//-         h2 Contact
+//-         p This is the contact section.
+//-         if userData
+//-           h3 Submitted Information:
+//-           p Name: #{userData.name}
+//-           p Email: #{userData.email}
+//-           p Message: #{userData.message}
+//-       section#form
+//-         h2 Contact Us
+//-         form(action="/submit", method="POST")
+//-           label(for="name") Name:
+//-           input(type="text", name="name", id="name", required=true)
+          
+//-           label(for="email") Email:
+//-           input(type="email", name="email", id="email", required=true)
+          
+//-           label(for="message") Message:
+//-           textarea(name="message", id="message", required=true)
+          
+//-           button(type="submit") Send
+//-     footer
+//-       p © 2025 My Website
